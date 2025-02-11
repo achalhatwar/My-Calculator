@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div style="text-align: center;">
+            <h2> My Calculator</h2>
+
+        </div>
+        <div class="div">
+            <input type="text" name="textdisplay" id="textdisplay" placeholder="0">
+
+        </div>
+
+        <div class="div1">
+            <button type="button" onclick="myclear()">c</button>
+            <button type="button" onclick="myclick(this)">/</button>
+            <button type="button" onclick="myclick(this)">*</button>
+            <button type="button">DEL</button>
+            <button type="button" onclick="myclick(this)">7</button>
+            <button type="button" onclick="myclick(this)">8</button>
+            <button type="button" onclick="myclick(this)">9</button>
+            <button type="button" onclick="myclick(this)">-</button>
+            <button type="button" onclick="myclick(this)">4</button>
+            <button type="button" onclick="myclick(this)">5</button>
+            <button type="button" onclick="myclick(this)">6</button>
+            <button type="button" onclick="myclick(this)">+</button>
+            <button type="button" onclick="myclick(this)">1</button>
+            <button type="button" onclick="myclick(this)">2</button>
+            <button type="button" onclick="myclick(this)">3</button>
+            <button type="button" onclick="myequal()"> = </button>
+            <button type="button" style="grid-column: span 2;" onclick="myclick(this)">0</button>
+            <button type="button" onclick="myclick(this)">.</button>
+            <button type="button" onclick="myclick(this)">%</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
