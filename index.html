@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="mybody">
     <div>
         <div style="text-align: center;">
             <h2> My Calculator</h2>
@@ -39,6 +39,12 @@
             <button type="button" style="grid-column: span 2;" onclick="myclick(this)">0</button>
             <button type="button" onclick="myclick(this)">.</button>
             <button type="button" onclick="myclick(this)">%</button>
+
+        </div>
+        <div style="text-align: center; padding-bottom: 25px;">
+            <button class="myT" type="button" onclick="myTheme('1')">Theme 1</button>
+            <button class="myT" type="button" onclick="myTheme('2')">Theme 2</button>
+            <button class="myT" type="button" onclick="myTheme('3')">Theme 3</button>
         </div>
     </div>
 
